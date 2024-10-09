@@ -42,3 +42,19 @@ class BookingService:
           raise BookingException(500, f"Error creating booking: {str(e)}")
       
 
+    def getBooking():
+       pass
+
+    def getBookingById():
+       pass
+
+    def cancelBooking():
+       pass
+
+    def updateStatus():
+       pass
+
+    def getBookingHistory():
+       pass
+
+
