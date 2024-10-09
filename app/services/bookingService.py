@@ -39,13 +39,18 @@ class BookingService:
       except BookingException as e:
             raise e 
       except Exception as e:
-          raise BookingException(500, f"Error creating booking: {str(e)}")
-      
+          raise BookingException(500, f"Error creating booking: {str(e)}")      
 
-    def getBooking():
+    def getBookingByRestaurantId():
+       pass
+    
+    def getBookingByUserId():
        pass
 
     def getBookingById():
+       pass
+    
+    def getBookingByDate():
        pass
 
     def cancelBooking():
@@ -54,7 +59,7 @@ class BookingService:
     def updateStatus():
        pass
 
-    def getBookingHistory():
-       pass
+    
 
+   
 
