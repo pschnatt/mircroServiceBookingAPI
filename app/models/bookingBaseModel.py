@@ -4,8 +4,8 @@ from pydantic import BaseModel
 from enum import Enum
 
 class ReservationDate(BaseModel):
-  startFrom : datetime
-  to : datetime
+  startFrom : Optional[datetime]
+  to : Optional[datetime]
 
 class PaymentStatus(str, Enum):
   unpaid = "Unpaid"
