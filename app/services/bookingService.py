@@ -87,7 +87,7 @@ class BookingService:
             "bookingId": str(booking["_id"]),
             "restaurantId": str(booking["restaurantId"]),
             "paymentId": booking["paymentId"],
-            "reservationDate": booking["reservationDate"],
+            "reservationDate": str(booking["reservationDate"]),
             "reservationRequest": booking["reservationRequest"],
             "guestNumber": booking["guestNumber"],
             "costPerPerson": booking["costPerPerson"],
